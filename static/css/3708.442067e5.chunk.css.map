@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/3708.442067e5.chunk.css","mappings":"AAAA,oBAGE,WADA,kBADA,kBAEA","sources":["pages/Tokens/styles.module.scss"],"sourcesContent":[".name {\n  margin-left: 0.25rem;\n  font-size: smaller;\n  color: #aaa;\n}\n"],"names":[],"sourceRoot":""}

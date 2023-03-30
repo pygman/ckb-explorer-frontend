@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/5820.ad4d34ae.chunk.css","mappings":"AAAA,4BACE,iBACA,kBAGF,8BAEE,mBADA,WACA","sources":["pages/404/index.module.scss"],"sourcesContent":[".pageCrashedTip {\n  margin-top: -64px;\n  text-align: center;\n}\n\n.pageCrashedError {\n  width: 800px;\n  margin: 16px auto 0 auto;\n}\n"],"names":[],"sourceRoot":""}

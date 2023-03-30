@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/6215.2e8055af.chunk.css","mappings":"AAAA,oBACE,SACA","sources":["components/AddressText/styles.module.scss"],"sourcesContent":[".link {\n  flex: 1;\n  min-width: 0;\n}\n"],"names":[],"sourceRoot":""}
