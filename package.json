@@ -95,7 +95,7 @@
     "extends": "react-app"
   },
   "engines": {
-    "node": "18.12.1"
+    "node": "18.*"
   },
   "browserslist": [
     ">0.2%",

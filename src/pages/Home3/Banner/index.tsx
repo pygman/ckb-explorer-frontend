@@ -2,7 +2,7 @@ import { FC, memo, useEffect, useRef, useState } from 'react'
 import classNames from 'classnames'
 import { BannerRender, createBannerRender } from './render'
 import styles from './index.module.scss'
-import { useInterval, useIsMobile } from '../../../utils/hook'
+import { useIsMobile } from '../../../utils/hook'
 
 // eslint-disable-next-line no-underscore-dangle
 const _Banner: FC<{ latestBlock?: State.Block }> = () => {
@@ -17,14 +17,6 @@ const _Banner: FC<{ latestBlock?: State.Block }> = () => {
     setRender(render)
     return () => render.destroy()
   }, [])
-
-  useInterval(
-    () => {
-      render?.onNewBlock({ transactionsCount: 5 } as State.Block)
-    },
-    5000,
-    [render],
-  )
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => render?.onResize(), [isMobile])
