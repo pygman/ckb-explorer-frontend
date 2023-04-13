@@ -70,5 +70,7 @@ export function renderTinyTestScene(container: HTMLElement) {
   const endRenderMark = performance.mark('end-render')
   destroy()
   const { duration } = performance.measure('renderMeasure', startRenderMark.name, endRenderMark.name)
+  // eslint-disable-next-line no-console
+  console.log(`duration: ${duration}`)
   return duration
 }
